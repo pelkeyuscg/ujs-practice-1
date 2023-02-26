@@ -17,3 +17,4 @@ vscode:
   extensions:
     - vortizhe.simple-ruby-erb
     - aliariff.vscode-erb-beautify
+    - firstdraft.vscode-rufo

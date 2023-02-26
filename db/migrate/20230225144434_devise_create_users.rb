@@ -6,7 +6,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.1]
       enable_extension("citext")
       
       ## Database authenticatable
-      t.string :email,              null: false, default: ""
+      t.citext :email,              null: false, default: ""
       t.string :encrypted_password, null: false, default: ""
 
       ## Recoverable
