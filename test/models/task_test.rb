@@ -3,8 +3,8 @@
 # Table name: tasks
 #
 #  id         :bigint           not null, primary key
-#  content    :text             not null
-#  status     :string           default("not_yet_started"), not null
+#  content    :text
+#  status     :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #  user_id    :bigint           not null
